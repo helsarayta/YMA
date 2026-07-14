@@ -1,4 +1,4 @@
-# Your Meeting Assistant — Web / PWA
+# Your Meeting Assistant (YMA) — Web / PWA
 
 An meeting assistant opened in a **phone browser**: the phone is placed near the laptop, the phone's mic listens to the meeting participant via the **laptop speaker**, and answers appear on the phone screen. Since the assistant never appears on the laptop screen, it's **safe from screen sharing** (including "Entire Screen").
 
