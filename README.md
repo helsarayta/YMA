@@ -1,6 +1,6 @@
-# AI Interview Assistant — Web / PWA
+# Your Meeting Assistant — Web / PWA
 
-An interview assistant opened in a **phone browser**: the phone is placed near the laptop, the phone's mic listens to the interviewer via the **laptop speaker**, and answers appear on the phone screen. Since the assistant never appears on the laptop screen, it's **safe from screen sharing** (including "Entire Screen").
+An meeting assistant opened in a **phone browser**: the phone is placed near the laptop, the phone's mic listens to the meeting participant via the **laptop speaker**, and answers appear on the phone screen. Since the assistant never appears on the laptop screen, it's **safe from screen sharing** (including "Entire Screen").
 
 
 ## Structure
@@ -46,10 +46,10 @@ The microphone in a phone browser only works over **HTTPS** — that's why we us
 5. Enter the **ACCESS_TOKEN** (from the server's `.env`) → allow microphone access.
 6. **Add to Home Screen** to turn it into an app: Safari → Share button → *Add to Home Screen* (Android Chrome: ⋮ menu → *Install app*).
 
-### Usage during the interview
+### Usage during the meeting
 - Place the phone near the **laptop speaker** (speaker on, not headphones).
-- Tap **🎧 Listen** when the interview starts — the phone screen is kept awake (wake lock).
-- Once the interviewer finishes asking → tap **🧠 Answer** → the answer appears on the phone.
+- Tap **🎧 Listen** when the meeting starts — the phone screen is kept awake (wake lock).
+- Once the meeting participant finishes asking → tap **🧠 Answer** → the answer appears on the phone.
 - The assistant never appears on the laptop screen → safe from any screen sharing.
 
 ## Scripts
@@ -60,5 +60,16 @@ The microphone in a phone browser only works over **HTTPS** — that's why we us
 | `npm run build` | Build web + compile server |
 | `npm start` | Run production (1 process, 1 port) |
 | `npm run typecheck` | Typecheck server + web |
-</content>
-</invoke>
+
+## Contributing
+
+Contributions are welcome! To get started:
+
+1. Fork the repo and clone your fork.
+2. Follow the [Running (dev)](#running-dev) steps above to get the app running locally.
+3. Create a branch for your change: `git checkout -b feature/your-feature-name`.
+4. Make your changes, and run `npm run typecheck` before committing.
+5. Commit with a clear message and push to your fork.
+6. Open a pull request describing what you changed and why.
+
+Bug reports and feature requests are also welcome via [Issues](https://github.com/helsarayta/YMA/issues).
